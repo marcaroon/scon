@@ -54,7 +54,7 @@
                         <div class="row">
                             <label for="isi-judul" class="col-sm-2">Judul Bagian</label>
                             <div class="col-sm-8">
-                                <input type="text" class="form-control input-sm required judul isi-judul" name="judul" value="{{ $suratMaster->form_isian->individu->judul ?: 'Utama' }}" minlength="3" maxlength="20">
+                                <input type="text" class="form-control input-sm required judul isi-judul" name="judul" value="{{ $suratMaster->form_isian->individu->judul ?: 'Utama' }}" minlength="3" maxlength="100">
                             </div>
                         </div>
                         <div class="row" style="margin-top: 5px">

@@ -37,7 +37,23 @@
   </table>
 
   <p><strong>Koordinat</strong><br> -7.6254133° LS, 111.4821764° BT</p>
-  <div id="mapid" style="height: 200px; border-radius: 4px; margin-top: 10px;"></div>
+  <div style="position: relative; height: 200px; border-radius: 4px; margin-top: 10px; overflow: hidden;">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3954.5354831972413!2d111.47960147500335!3d-7.625413292390126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMzcnMzEuNSJTIDExMcKwMjgnNTUuOCJF!5e0!3m2!1sen!2sid!4v1749368750039!5m2!1sen!2sid"
+    width="100%"
+    height="100%"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <a href="https://www.google.com/maps?q=-7.6254133,111.4821764" target="_blank"
+     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10;"
+     title="Klik untuk buka di Google Maps">
+    <span class="sr-only">Buka di Google Maps</span>
+  </a>
+</div>
 </div>
 
 </div>
